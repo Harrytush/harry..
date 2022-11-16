@@ -1,0 +1,42 @@
+Import javautil.Scanner;
+class SmallestNum2{
+    public static void main (String args[]){
+        
+        
+        scanner scan=new
+            Scanner(System.in);
+        System.out.print("Enter the first number\n" );
+        int Num1=Scan.nextint();
+        System.out.print("Enter the second number\n");
+        int num2=scan.nextint();
+        System.out.print("Enter the third number\n");
+          int num3=scan.nextint;
+        
+        findSmallest(num1,num2,num3);
+          
+        Static void findSmallest(intnum1,int num2,)
+
+        
+        if(Num1<=Num2&&Num1<=Num3);{
+            System.out.println(Num1+"is the smallest number");
+            
+        }
+        else if(num2<=Num1&&num2<=Num3);
+                {
+            System.out.println(num2+"is the smallest number");
+            
+        }
+        else{
+            System.out.println(num3+"is the smallest number");
+            
+        }
+    }
+
+    private static class scanner {
+
+        public scanner() {
+        }
+    }
+}
+       
+    
